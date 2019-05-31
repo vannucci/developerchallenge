@@ -2,8 +2,7 @@
   <v-app>
     <v-toolbar app>
       <v-toolbar-title class="headline text-uppercase">
-        <span>Vuetify</span>
-        <span class="font-weight-light">MATERIAL DESIGN</span>
+        <span>Top Ten Twitter</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn
@@ -17,17 +16,25 @@
 
     <v-content>
       <HelloWorld/>
+      <Topten/>
+      <Searchresults/>
     </v-content>
   </v-app>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld'
+import Topten from './components/Topten.vue'
+import Searchresults from './components/Searchresults'
+
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Topten,
+    Searchresults
   },
   data () {
     return {

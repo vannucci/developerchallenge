@@ -1,4 +1,4 @@
-# developerchallenge
+# client
 
 ## Project setup
 ```
